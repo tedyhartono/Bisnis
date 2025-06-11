@@ -1,0 +1,72 @@
+/* ... (CSS yang sudah ada sebelumnya) ... */
+
+#keranjang-belanja {
+    background-color: #e6ffe6; /* Warna hijau muda */
+    border: 1px solid #4CAF50; /* Border hijau */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+#keranjang-belanja h2 {
+    color: #4CAF50;
+    margin-top: 0;
+}
+
+#cart-items {
+    min-height: 50px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+#cart-items p {
+    color: #666;
+    font-style: italic;
+}
+
+#cart-items div { /* Untuk setiap item di keranjang */
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px dotted #f0f0f0;
+}
+
+#cart-items div:last-child {
+    border-bottom: none;
+}
+
+#cart-total {
+    font-weight: bold;
+    color: #da291c;
+    font-size: 1.3em;
+}
+
+.add-to-cart, #checkout-button {
+    background-color: #007bff; /* Biru */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Jarak dari harga */
+}
+
+.add-to-cart:hover, #checkout-button:hover {
+    background-color: #0056b3;
+}
+
+#checkout-button {
+    display: block; /* Agar di baris baru */
+    margin-top: 20px;
+    width: 100%;
+    font-size: 1.1em;
+    background-color: #28a745; /* Hijau untuk checkout */
+}
+
+#checkout-button:hover {
+    background-color: #218838;
+}

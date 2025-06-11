@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu McDonald's Interaktif</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Martabak's MinsT</h1>
+    </header>
+
+    <main>
+        <section id="keranjang-belanja">
+            <h2>🛒 Keranjang Belanja</h2>
+            <div id="cart-items">
+                <p>Keranjang kosong.</p>
+            </div>
+            <p>Total: <span id="cart-total">Rp 0</span></p>
+            <button id="checkout-button">Checkout (Simulasi)</button>
+        </section>
+
+        <section id="makanan" class="menu-category">
+            <h2>Rasa</h2>
+            <div class="menu-items">
+                <div class="menu-item" data-name="Coklat" data-price="1000">
+                    <h3>Coklat</h3>
+                    <p>Coklat seres</p>
+                    <span class="price">Rp 1000</span>
+                    <button class="add-to-cart">Tambahkan ke Keranjang</button>
+                </div>
+                <div class="menu-item" data-name="Keju" data-price="1000">
+                    <h3>Keju</h3>
+                    <p>Keju kraft</p>
+                    <span class="price">Rp 1000</span>
+                    <button class="add-to-cart">Tambahkan ke Keranjang</button>
+                </div>
+                <div class="menu-item" data-name="Coklat Keju" data-price="2000">
+                    <h3>Coklat Keju</h3>
+                    <p>Rasa campur yang enak.</p>
+                    <span class="price">Rp 2000</span>
+                    <button class="add-to-cart">Tambahkan ke Keranjang</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="minuman" class="menu-category">
+            <h2>🥤 Minuman</h2>
+            <div class="menu-items">
+                <div class="menu-item" data-name="Coca-Cola (Medium)" data-price="15000">
+                    <h3>Coca-Cola (Medium)</h3>
+                    <p>Minuman bersoda segar.</p>
+                    <span class="price">Rp 15.000</span>
+                    <button class="add-to-cart">Tambahkan ke Keranjang</button>
+                </div>
+                <div class="menu-item" data-name="Iced Coffee" data-price="22000">
+                    <h3>Iced Coffee</h3>
+                    <p>Kopi dingin dengan es.</p>
+                    <span class="price">Rp 22.000</span>
+                    <button class="add-to-cart">Tambahkan ke Keranjang</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="Request" class="menu-category">
+            <h2>Request</h2>
+            <div class="menu-items">
+                <div class="menu-item" data-name="McFlurry Oreo" data-price="18000">
+                    <h3>McFlurry Oreo</h3>
+                    <p>Es krim vanilla lembut dengan taburan Oreo.</p>
+                    <span class="price">Rp 18.000</span>
+                    <button class="add-to-cart">Tambahkan ke Keranjang</button>
+                </div>
+                <div class="menu-item" data-name="Selai" data-price="16000">
+                    <h3>Selai</h3>
+                    <p>Martabak hangat dengan selai lezat.</p>
+                    <span class="price">Rp 16.000</span>
+                    <button class="add-to-cart">Tambahkan ke Keranjang</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="promo" class="menu-category">
+            <h2>✨ Promo Spesial</h2>
+            <div class="menu-items">
+                <div class="menu-item promo-item">
+                    <h3>Diskon 10% untuk Paket Hemat!</h3>
+                    <p>Nikmati diskon spesial untuk semua paket hemat.</p>
+                    <span class="price">Lihat detail promo</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Martabak's MinsT. Hak Cipta Dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
